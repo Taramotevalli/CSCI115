@@ -1,0 +1,334 @@
+<!--Tara Motevalli
+    658968540-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style type="text/css">
+        nav ul li {
+            transition: background-color .3s;
+            font-size: 1rem;
+            color: #fff;
+            display: block;
+            padding: 0 15px;
+            cursor: pointer;
+        }
+
+        #header {
+            display: flex;
+            font-size: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: center;
+        }
+
+        #col1 {
+            color: #4c6785;
+        }
+
+        #colorBar {
+            background-color: #dee2e6;
+            height: 620px;
+            width: 250px;
+            float: right;
+        }
+
+        .nav-wrapper {
+            background-color: #8DA9C4 !important;
+        }
+
+        .div-holder {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding-top: 40px;
+        }
+
+        .div-holder img {
+            width: calc(50% - 20px);
+            margin-bottom: 40px;
+            border-radius: 10px;
+        }
+
+        nav .nav-wrapper .brand-logo {
+            padding-left: 15px;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        .content-part {
+            border: 1px solid #ddd;
+            padding: 20px;
+            line-height: 1.8;
+            background: #fbfbfb;
+            font-size: 16px;
+            border-radius: 10px;
+            text-align: center;
+            color: #444;
+            font-weight: 300;
+        }
+
+        .content-part a {
+            font-size: 28px;
+            color: #444;
+            font-weight: 500;
+        }
+
+        .land-img {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .land-img img {
+            width: 100%;
+            opacity: 0.7;
+        }
+
+        .main-content {
+            background: rgb(255, 255, 255, 0.27);
+            position: absolute;
+            z-index: 1;
+            max-width: 525px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 17px;
+            font-weight: 300;
+            left: 20px;
+            top: 30px;
+            padding: 20px;
+        }
+
+        .refer-btn {
+
+            background: #8ca9c4;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 10px;
+
+        }
+
+        @media only screen and (max-width: 600px) {
+            .main-content {
+                position: relative;
+                left: 0;
+                top: 0;
+                max-width: 100%;
+                border-radius: 0;
+            }
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Travel</a>
+            <ul class="right hide-on-med-and-down">
+                <li><i class="material-icons">search</i></li>
+                <li><i class="material-icons">view_module</i></li>
+                <li><i class="material-icons">refresh</i></li>
+                <li><i class="material-icons">more_vert</i></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="land-img">
+
+        <div class="main-content">
+            <div id="header">Top 10 Countries for Traveling</div>
+            Traveling is one of the most enriching experiences that can broaden our horizons, help us learn about
+            different cultures, and create unforgettable memories. With so many amazing destinations to choose from,
+            here are ten countries that are worth considering for your next travel adventure:
+        </div>
+        <img src="img/landing-page.jpg" alt="Traveling">
+    </div>
+
+    <section>
+
+        <a class="refer-btn" href="#end" id="top">Go to end</a>
+
+        <div>
+            <div>
+                <div class="content-part">
+                    <a href="https://www.thecrazytourist.com/25-best-things-italy/" target="blank">Italy</a> - <br>
+                    Italy is known for its rich history, art, and architecture, as well as its delicious food and wine.
+                    From exploring the ancient ruins of Rome to wandering through the picturesque streets of Florence,
+                    Italy offers a wealth of cultural experiences.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Italy-1.jpeg" alt="Italy">
+                    <img src="img/Italy-2.jpeg" alt="Italy">
+                    <img src="img/Italy-3.jpeg" alt="Italy">
+                    <img src="img/Italy-4.jpeg" alt="Italy">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a href="https://www.neverendingvoyage.com/things-to-do-in-japan/" target="blank">Japan</a> - <br>
+                    Japan is a unique blend of ancient traditions and modern technology. Its cities are bustling with
+                    energy and excitement, while its temples and gardens offer a peaceful retreat. Japan's cuisine is
+                    also a major draw for foodies.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Japan-1.jpeg" alt="Japan">
+                    <img src="img/Japan-2.jpeg" alt="Japan">
+                    <img src="img/Japan-3.jpeg" alt="Japan">
+                    <img src="img/Japan-4.png.webp" alt="Japan">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a herf="https://www.timeout.com/spain/things-to-do/best-things-to-do-in-spain"
+                        target="blank">Spain</a> - <br>
+                    Spain is a country that is full of life, with a vibrant culture, lively nightlife, and stunning
+                    beaches. Its architecture, from Gothic cathedrals to modernist buildings, is also a sight to behold.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Spain-1.jpeg" alt="Spain">
+                    <img src="img/Spain-2.webp" alt="Spain">
+                    <img src="img/Spain-3.jpeg" alt="Spain">
+                    <img src="img/Spain-4.jpeg" alt="Spain">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a href="https://www.thecrazytourist.com/top-25-things-to-do-in-france/" target="blank">France</a> -
+                    <br>
+                    France is a country of art, fashion, and cuisine. The museums of Paris are world-renowned, while the
+                    French countryside offers stunning vistas and charming towns.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/France-1.jpeg" alt="France">
+                    <img src="img/France-2.webp" alt="France">
+                    <img src="img/France-3.jpeg" alt="France">
+                    <img src="img/France-4.jpeg" alt="France">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a href="https://www.australia.com/en-ca/things-to-do/adventure-and-sports/must-do-activities-in-australia.html"
+                        target="blank">Australia</a> - <br>
+                    Australia is known for its natural wonders, from the Great Barrier Reef to Uluru. Its cities, such
+                    as Sydney and Melbourne, are also vibrant and cosmopolitan, with plenty of attractions and
+                    activities.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Australia-1.webp" alt="Australia">
+                    <img src="img/Australia-2.jpeg" alt="Australia">
+                    <img src="img/Australia-3.webp" alt="Australia">
+                    <img src="img/Australia-4.jpeg" alt="Australia">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a href="https://www.thecrazytourist.com/top-25-things-to-do-in-thailand/"
+                        target="blank">Thailand</a> - <br>
+                    Thailand is a land of golden temples, beautiful beaches, and delicious food. Its hospitality and
+                    affordability make it a popular destination for budget travelers.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Thailand-1.jpeg" alt="Thailand">
+                    <img src="img/Thailand-2.jpeg" alt="Thailand">
+                    <img src="img/Thailand-3.jpeg" alt="Thailand">
+                    <img src="img/Thailand-4.jpeg" alt="Thailand">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a href="https://www.thecrazytourist.com/top-25-things-to-do-and-see-in-canada/"
+                        target="blank">Canada</a> - <br>
+                    Canada is a vast and diverse country, with stunning natural beauty and friendly people. Its cities,
+                    such as Toronto and Vancouver, are also dynamic and multicultural.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Canada-1.webp" alt="Canada">
+                    <img src="img/Canada-2.jpeg" alt="Canada">
+                    <img src="img/Canada-3.jpeg" alt="Canada">
+                    <img src="img/Canada-4.jpeg" alt="Canada">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a href="https://theplanetd.com/things-to-do-in-peru/" target="blank">Peru</a> - <br>
+                    Peru is home to the ancient Incan city of Machu Picchu, as well as other fascinating ruins and
+                    sites. Its culture and cuisine are also unique and worth exploring.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Peru-1.jpeg" alt="Peru">
+                    <img src="img/Peru-2.jpeg" alt="Peru">
+                    <img src="img/Peru-3.jpeg" alt="Peru">
+                    <img src="img/Peru-4.jpeg" alt="Peru">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a href="https://handluggageonly.co.uk/2017/02/26/12-amazing-things-to-do-on-a-first-time-visit-to-iceland/"
+                        target="blank">Iceland</a> - <br>
+                    Iceland is a land of rugged beauty, with dramatic landscapes and natural wonders such as waterfalls
+                    and hot springs. It's also a great place to see the Northern Lights.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Iceland-1.jpeg" alt="Iceland">
+                    <img src="img/Iceland-2.jpeg" alt="Iceland">
+                    <img src="img/Iceland-3.jpeg" alt="Iceland">
+                    <img src="img/Iceland-4.jpeg" alt="Iceland">
+                </div>
+            </div>
+
+            <div>
+                <div class="content-part">
+                    <a href="https://www.worldpackers.com/articles/best-things-to-do-in-costa-rica" target="blank">Costa
+                        Rica</a> - <br>
+                    Costa Rica is a haven for eco-tourists, with lush rainforests, wildlife reserves, and stunning
+                    beaches. Its commitment to sustainability and conservation make it a great destination for those who
+                    want to travel responsibly.
+                </div>
+
+                <div class="div-holder">
+                    <img src="img/Costa Rica-1.jpeg" alt="Costa Rica">
+                    <img src="img/Costa Rica-2.jpeg" alt="Costa Rica">
+                    <img src="img/Costa Rica-3.jpeg" alt="Costa Rica">
+                    <img src="img/Costa Rica-4.webp" alt="Costa Rica">
+                </div>
+            </div>
+        </div>
+        <a class="refer-btn" href="index1.html">more country</a>
+        <a class="refer-btn" href="#top" id="end">Go to top</a>
+    </section>
+</body>
+
+</html>
